@@ -1,0 +1,43 @@
+/* Stylish Benefit Card */
+.benefit-card {
+    background: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+    border-radius: 15px;
+    padding: 25px;
+    color: white;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    backdrop-filter: blur(8px); /* Glassmorphism effect */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .benefit-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 15px 30px rgba(0, 123, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+  
+  /* Icon Styling */
+ 
+  
+  .icon-container i {
+    font-size: 40px;
+  }
+  
+  .benefit-card:hover .icon-container {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+  }
+  
+  /* Custom Text Styling */
+  .benefit-card h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .benefit-card p {
+    font-size: 15px;
+    color: #dcdcdc;
+  }
+  
